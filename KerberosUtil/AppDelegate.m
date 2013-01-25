@@ -40,29 +40,26 @@
     [self.kerbList setStringValue:keList];
 }
 
-- (void)updateColor {
-    if ([kerberos hasTGT]) {
-        [self.krbColor setColor:[NSColor greenColor]];
-    }
-    else {
-        [self.krbColor setColor:[NSColor redColor]];
-    }
-}
 
 - (void)updateUserMessage {
     if ([kerberos hasTGT]) {
         [self.krbTextForUser setStringValue:@"You have a ticket!"];
+        [self.krbTextForUser setTextColor:[NSColor blueColor]];
     }
     else {
         [self.krbTextForUser setStringValue:@"You don't have a ticket!"];
+        [self.krbTextForUser setTextColor:[NSColor redColor]];
     }
 }
 
 - (void)updateUserInterface {
     [self updateTextField:[kerberos getStringFromKlist]];
-    [self updateColor];
     [self updateUserMessage];
     
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
 }
 
 @end

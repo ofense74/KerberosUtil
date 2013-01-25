@@ -18,6 +18,7 @@
 		7F41D30F163823FB00237397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F41D30D163823FB00237397 /* InfoPlist.strings */; };
 		7F41D312163823FB00237397 /* KerberosUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F41D311163823FB00237397 /* KerberosUtilTests.m */; };
 		7F41D31D1639244B00237397 /* Kerberos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F41D31C1639244B00237397 /* Kerberos.m */; };
+		7F8CD58216B2964900C2DD0D /* ThumbupNEW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F8CD58116B2964900C2DD0D /* ThumbupNEW.jpg */; };
 		B64C16D516482B92004AD11F /* Mac.icns in Resources */ = {isa = PBXBuildFile; fileRef = B64C16D416482B92004AD11F /* Mac.icns */; };
 		B662C79F1640265A00132663 /* GSS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662C79E1640265A00132663 /* GSS.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		7F41D311163823FB00237397 /* KerberosUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KerberosUtilTests.m; sourceTree = "<group>"; };
 		7F41D31B1639244B00237397 /* Kerberos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kerberos.h; sourceTree = "<group>"; };
 		7F41D31C1639244B00237397 /* Kerberos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kerberos.m; sourceTree = "<group>"; };
+		7F8CD58116B2964900C2DD0D /* ThumbupNEW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThumbupNEW.jpg; sourceTree = "<group>"; };
 		B64C16D416482B92004AD11F /* Mac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Mac.icns; sourceTree = "<group>"; };
 		B662C79E1640265A00132663 /* GSS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSS.framework; path = ../../../System/Library/Frameworks/GSS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 		7F41D2ED163823FA00237397 /* KerberosUtil */ = {
 			isa = PBXGroup;
 			children = (
+				7F8CD58116B2964900C2DD0D /* ThumbupNEW.jpg */,
 				7F41D2F9163823FA00237397 /* AppDelegate.h */,
 				7F41D2FA163823FA00237397 /* AppDelegate.m */,
 				7F41D2FC163823FA00237397 /* MainMenu.xib */,
@@ -240,6 +243,7 @@
 				7F41D2F8163823FA00237397 /* Credits.rtf in Resources */,
 				7F41D2FE163823FA00237397 /* MainMenu.xib in Resources */,
 				B64C16D516482B92004AD11F /* Mac.icns in Resources */,
+				7F8CD58216B2964900C2DD0D /* ThumbupNEW.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

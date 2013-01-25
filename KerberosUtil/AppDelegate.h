@@ -16,13 +16,15 @@
     NSString *password;
     NSString *username;
     Kerberos *kerberos;
+    NSImage *good;
+    NSImage *bad;
 }
+@property (weak) IBOutlet NSImageView *imageWell;
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTextField *kerbList;
 @property (weak) IBOutlet NSTextField *accName;
 @property (weak) IBOutlet NSSecureTextField *passwd;
-@property (weak) IBOutlet NSColorWell *krbColor;
 @property (weak) IBOutlet NSTextField *krbTextForUser;
 - (IBAction)passwdOK:(id)sender;
 - (IBAction)cancel:(id)sender;
